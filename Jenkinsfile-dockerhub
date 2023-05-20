@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('srini78')
+    DOCKERHUB_CREDENTIALS = credentials('srini-dcokerhub')
     APP_NAME = "srini78/devops-amazon-app1"
     }
     stages { 
